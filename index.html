@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher's Day Card</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- SDK + Tailwind -->
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+
+  <style>@view-transition { navigation: auto; }</style>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="card-wrapper">
+
+      <!-- Floating decorative elements -->
+      <div class="floating-element float-1">📚</div>
+      <div class="floating-element float-2">✏️</div>
+      <div class="floating-element float-3">🎓</div>
+      <div class="floating-element float-4">📖</div>
+      <div class="floating-element float-5">🌟</div>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <svg class="hero-icon" viewBox="0 0 100 100">
+            <circle cx="50" cy="40" r="20" fill="#ffffff" stroke="#ffe4b3" stroke-width="2" />
+            <path d="M 30 60 Q 50 70 70 60 L 70 85 Q 50 95 30 85 Z"
+              fill="#ffffff" stroke="#ffe4b3" stroke-width="2" />
+            <circle cx="43" cy="38" r="3" fill="#ff6b9d" />
+            <circle cx="57" cy="38" r="3" fill="#ff6b9d" />
+            <path d="M 43 46 Q 50 50 57 46"
+              stroke="#ff6b9d" stroke-width="2" fill="none" stroke-linecap="round" />
+          </svg>
+
+          <h1 class="hero-title" id="heroTitle">To Our Amazing Teacher</h1>
+          <p class="hero-subtitle" id="heroSubtitle">You Make Learning Magical ✨</p>
+        </div>
+      </section>
+
+      <!-- Quote Section -->
+      <section class="quote-section">
+        <div class="quote-icon">"</div>
+        <p class="quote-text" id="quoteText">
+          A teacher takes a hand, opens a mind, and touches a heart
+        </p>
+      </section>
+
+      <!-- Gratitude Section -->
+      <section class="gratitude-section">
+        <h2 class="gratitude-title" id="gratitudeTitle">What We Appreciate</h2>
+
+        <div class="gratitude-items">
+          <div class="gratitude-item">
+            <span class="gratitude-emoji">💝</span>
+            <span class="gratitude-text" id="reason1">Your patience and understanding</span>
+          </div>
+
+          <div class="gratitude-item">
+            <span class="gratitude-emoji">🎨</span>
+            <span class="gratitude-text" id="reason2">Your creative teaching methods</span>
+          </div>
+
+          <div class="gratitude-item">
+            <span class="gratitude-emoji">🌈</span>
+            <span class="gratitude-text" id="reason3">Your dedication to our success</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final Message Section -->
+      <section class="final-section">
+        <p class="final-message" id="finalMessage">Here is a **short, simple, and basic English message**:
+
+---
+
+Thank you, Teacher, for your kindness and hard work. You always guide us, support us, and help us become better. We are very grateful for everything you do.
+
+</p>
+        <p class="signature" id="signatureText">With love and gratitude 💐</p>
+
+        <div class="hearts-container">
+          <span class="heart">❤️</span>
+          <span class="heart">💛</span>
+          <span class="heart">💚</span>
+        </div>
+
+        <button class="celebration-btn" id="celebrateBtn">
+          Celebrate Teacher's Day! 🎉
+        </button>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
